@@ -1,0 +1,55 @@
+button.abcent {
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
+  border: 1px solid #ffffff;
+  background-color: #000000aa;
+  color: white;
+  font-size: var(--tr);
+  opacity: .6;
+  top: 80%;
+  transition: opacity 150ms ease-in;
+}
+button.abcent:hover {
+  opacity: 1;
+}
+
+
+.dash-body {
+  padding: 1rem 6rem 4rem 6rem;
+}
+.dash-body table{
+  width: 100%;
+}
+.dashbar {
+  height: 2rem;
+  margin-bottom: 1rem;
+}
+
+
+.dash-body td {
+  white-space: nowrap;
+  font-size: var(--ts);
+  text-align: center;
+}
+.dash-body td div.image-frame {
+  margin: 4px;
+}
+.dash-body td > img {
+  width: 4rem;
+  height: 4rem;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.dash-body .small {
+  font-size: var(--t2s);
+  color: var(--tx2);
+}
+
+.dash-body .stay-up {
+ vertical-align: top;
+ padding-top: 1rem;
+}
+.topic {
+  font-size: var(--tm);
+  cursor: pointer;
+}

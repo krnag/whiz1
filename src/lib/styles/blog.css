@@ -1,0 +1,35 @@
+#article .head {
+  min-height: 30rem;
+  height: 100vh;
+}
+
+article h1,article h2,article h3,article h4{margin-left:2rem}
+article p {
+  padding: 1rem 2rem 1rem 2rem;
+  line-height: 1.8;
+  font-size: var(--tl);
+  text-align:justify
+}
+
+article a {
+  padding: 0 2px;
+  margin: 0 -2px;
+}
+article a:hover{color:var(--primary1)}
+article a::after{
+  content:" l";font-family:"iconic";font-style:normal;color:var(--primary1)
+}
+
+figure {
+  position: relative;
+  padding: 2rem;
+}
+figcaption {
+  font-size: var(--ts);
+  color: var(--tx3);
+}
+
+blockquote p{color:var(--tx3);padding:0 5%}
+blockquote~figcaption{text-align:center}
+
+article table{margin:2rem auto;outline:1px solid var(--tx4)}
